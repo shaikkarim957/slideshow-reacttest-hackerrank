@@ -30,7 +30,7 @@ const Slides = (props) => {
                     Next
                 </button>
             </div>
-            <div id="slide" className="card text-center">
+            <div id="slide">
                 <h1 className="mb-4">{slides[currentSlide].title}</h1>
                 <p>{slides[currentSlide].text}</p>
             </div>

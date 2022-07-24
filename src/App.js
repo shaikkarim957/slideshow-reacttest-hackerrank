@@ -1,20 +1,20 @@
 import "./App.css";
 import logo from "./logo.svg";
 
-function App() {
+import Slides from "./components/Slides";
+
+const App = ({ slides }) => {
     return (
-        <div className="App">
+        <div>
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 Slideshow App
             </header>
-            <div className="App-buttons">
-                <button className="btn btn-primary">Restart</button>
-                <button className="btn btn-primary">Preview</button>
-                <button className="btn btn-primary">Next</button>
+            <div className="App">
+                <Slides slides={slides} />
             </div>
         </div>
     );
-}
+};
 
 export default App;

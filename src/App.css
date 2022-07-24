@@ -42,6 +42,7 @@
     padding: 1rem;
     min-height: 250px;
     box-shadow: 10px 10px 10px #aaaaaa;
+    text-align: center;
 }
 
 button[disabled]:hover {
